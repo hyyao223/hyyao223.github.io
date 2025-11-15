@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shang Wu's Homepage"
+title                    : "Randol Yao's Homepage"
 title_separator          : "-"
-name                     : &name "Shang Wu"
+name                     : &name "Randol Yao"
 description              : &description "personal description"
-url                      : https://shangw19.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://hyyao223.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   # avatar           : # "profile.png"
-  name             : # Shang Wu
-  pronouns         : # example: "she/her"  
+  name             : # Randol Yao
+  pronouns         : # example:   
   bio              : #"Short biography for the left-hand sidebar"
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : shangw13@uci.edu
+  email            : hyyao@mit.edu
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
