@@ -2,10 +2,10 @@
 title: "Patent Visibility and the Diffusion of Trapped Knowledge"
 collection: publications
 category: workingpapers
-permalink: /files/Yao. 2025. Patent Visibility and the Diffusion of Trapped Knowledge.pdf
+permalink: /files/Yao_2025_patent.pdf
 excerpt: ""
 date: 2025-01-01
-paperurl: "/files/Yao. 2025. Patent Visibility and the Diffusion of Trapped Knowledge.pdf"
+paperurl: "/files/Yao_2025_patent.pdf"
 ---
 
 ## Abstract
