@@ -1,0 +1,15 @@
+/* Make publication entries full-width */
+.archive__item {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.list__item {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.archive .list__item,
+.archive .archive__item {
+  grid-column: 1 / -1 !important;
+}
