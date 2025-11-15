@@ -82,6 +82,7 @@
   width: 40px;
   // set width only, for non-square avatars
   // height: 36px;
+  margin-bottom: 20px;
 
   @include breakpoint($large) {
     display: block;
