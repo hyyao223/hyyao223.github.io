@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Randol Yao"
 author_profile: true
 redirect_from: 
   - /about/
