@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Randol Yao"
 title_separator          : "-"
 name                     : &name "Randol Yao"
-description              : &description "Randol Yao – PhD Student at MIT Sloan"
+description              : &description "Randol Yao – PhD Candidate at MIT Sloan"
 url                      : https://hyyao223.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "headshot.jpg"
   name             : Randol (Hongyu) Yao
-  pronouns         : # example:   
-  bio              : #"Short biography for the left-hand sidebar"
-  location         : #"Earth"
-  employer         : #"Red Brick University"
+  pronouns         : # example:
+  bio              : "PhD Candidate"
+  location         : "Cambridge, MA"
+  employer         : "MIT Sloan"
   uri              : # URL
   email            : hyyao@mit.edu
 
