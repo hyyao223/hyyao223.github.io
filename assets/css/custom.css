@@ -1,0 +1,128 @@
+/* EB Garamond font — everywhere */
+body, h1, h2, h3, h4, h5, h6,
+.page__content, .author__bio, .author__urls,
+.masthead, .greedy-nav, .greedy-nav a,
+.sidebar, .author__urls-wrapper, .author__desktop,
+.sidebar a, .author__urls li, .author__urls a {
+  font-family: 'EB Garamond', Georgia, serif !important;
+}
+
+/* Bigger site title in masthead */
+.masthead__menu-item--lg a {
+  font-size: 1.3em !important;
+}
+
+/* Rectangular profile photo, left-aligned */
+.author__avatar {
+  display: block !important;
+  text-align: left !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+img.author__avatar,
+.author__avatar img {
+  border-radius: 0 !important;
+  max-width: 160px !important;
+  padding: 0 !important;
+  border: none !important;
+  height: auto !important;
+}
+
+/* Hide redundant name below photo (already in masthead) */
+.author__name {
+  display: none !important;
+}
+
+/* Smaller font for sidebar links */
+.author__urls li,
+.author__urls a,
+.author__desktop,
+.author__desktop a {
+  font-size: 13px !important;
+}
+
+/* Ensure sidebar content is left-aligned */
+.sidebar .author__content,
+.author__urls-wrapper {
+  text-align: left !important;
+}
+
+/* Base font size (bumped up to compensate for Garamond rendering smaller) */
+html {
+  font-size: 20px !important;
+}
+
+.page__content {
+  font-size: 0.95em;
+}
+
+/* Remove underlines from links */
+a {
+  text-decoration: none !important;
+}
+
+.page__content p,
+.page__content li {
+  font-size: 1em;
+}
+
+/* Tighter paragraph spacing */
+.page__content p {
+  margin-bottom: 0.5em;
+}
+
+/* Tighter bullet point spacing and smaller bullets */
+.page__content ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.page__content li {
+  margin-bottom: 0.15em;
+  line-height: 1.4;
+}
+
+.page__content li::marker {
+  font-size: 0.7em;
+}
+
+/* Slightly smaller h2 headings in content area */
+.page__content h2 {
+  font-size: 1.3em;
+}
+
+/* Tighten up spacing between publication entries */
+.page__content hr {
+  margin: 1.5em 0;
+}
+
+.archive__item p {
+  line-height: 1.3;
+  margin-bottom: 0.8em;
+  font-size: 1em;
+}
+
+/* Hide the empty page title and collapse its space */
+.page__title {
+  display: none !important;
+}
+
+/* Remove top padding so content aligns with photo */
+.page__inner-wrap > header {
+  display: none !important;
+}
+
+.page__content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.page__content > *:first-child {
+  margin-top: 0.8em !important;
+}
+
+/* Hide footer entirely */
+.page__footer {
+  display: none !important;
+}
