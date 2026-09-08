@@ -3,8 +3,17 @@ body, h1, h2, h3, h4, h5, h6,
 .page__content, .author__bio, .author__urls,
 .masthead, .greedy-nav, .greedy-nav a,
 .sidebar, .author__urls-wrapper, .author__desktop,
-.sidebar a, .author__urls li, .author__urls a {
+.sidebar a, .author__urls li, .author__urls a,
+.archive__item-title, .archive__item-excerpt {
   font-family: 'EB Garamond', Georgia, serif !important;
+}
+
+/* Publication entry titles: bold body text, not a big heading */
+.archive__item-title {
+  font-size: 1em !important;
+  font-weight: 600 !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.2em !important;
 }
 
 /* Bigger site title in masthead */
