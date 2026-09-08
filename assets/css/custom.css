@@ -11,9 +11,13 @@ body, h1, h2, h3, h4, h5, h6,
 /* Publication entry titles: bold body text, not a big heading */
 .archive__item-title {
   font-size: 1em !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
   margin-top: 1em !important;
   margin-bottom: 0.2em !important;
+}
+
+.archive__item-title strong {
+  font-weight: 600 !important;
 }
 
 /* Bigger site title in masthead */
