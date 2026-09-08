@@ -27,7 +27,11 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
+      {% else %}
+        {{ title }}
+      {% endif %}
     </h2>
     
     {% if post.read_time %}
