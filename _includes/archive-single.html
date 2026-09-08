@@ -34,6 +34,7 @@
         {{ title }}
       {% endif %}
       </strong>
+      {% if post.citeline %}{{ post.citeline | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
     </p>
     
     {% if post.read_time %}
