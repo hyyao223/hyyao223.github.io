@@ -15,3 +15,8 @@
     padding-right: 0 !important;
   }
 }
+
+/* Only the linked title is underlined, not the citeline beside it */
+.archive__item:hover .archive__item-title {
+  text-decoration: none;
+}
